@@ -4,7 +4,105 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./image/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d6aef9706e.js"
+      crossorigin="anonymous"
+    ></script>
     <title>login&siginup-screen</title>
   </head>
-  <body></body>
+  <body>
+    <section class="container">
+      <div class="headings">
+        <h1 class="heading-title-1">LOGIN</h1>
+        <h1 class="heading-title-2">UI CONCEPT</h1>
+      </div>
+      <div class="form-section">
+        <div class="left-side">
+          <div class="top-login">
+            <h1 class="form-title">
+              Welcome <br />
+              Back
+            </h1>
+          </div>
+          <div class="bottom-login">
+            <form class="form" action="">
+              <p>
+                <label for="email">
+                  email: <br />
+                  <input type="email" id="email" required />
+                </label>
+              </p>
+              <p>
+                <label for="password">
+                  password: <br />
+                  <input type="password" id="passwor" required />
+                </label>
+                <br />
+                <small><a href="#">Forgot Password ?</a></small>
+              </p>
+              <button class="sub" type="submit">Sign up</button> <br />
+              <div class="socal">
+                <a class="btn-link" href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="btn-link" href="#"><i class="fab fa-google"></i></a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="top-sign-up">
+            <h1>
+              Create <br />
+              Account
+            </h1>
+          </div>
+          <div class="bottom-sign-up">
+            <form class="form" action="">
+              <p>
+                <label for="name">
+                  Name <br />
+                  <input type="text" id="name" required />
+                </label>
+              </p>
+
+              <p>
+                <label for="email">
+                  email <br />
+                  <input type="email" id="email" required />
+                </label>
+              </p>
+              <p>
+                <label for="password">
+                  password <br />
+                  <input type="password" id="password" required />
+                </label>
+              </p>
+              <p>
+                <label for="cpassword">
+                  confarm password <br />
+                  <input type="password" id="cpassword" required />
+                </label>
+              </p>
+              <button class="sub" type="submit">SIGN UP</button> <br />
+              <div class="socal">
+                <a class="btn-link" href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="btn-link" href="#"><i class="fab fa-google"></i></a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
